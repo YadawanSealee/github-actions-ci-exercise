@@ -57,6 +57,12 @@ def test_get_nth_fibonacci_one():
     # Assert
     assert result == 1
 
+    def test_get_nth_fibonacci_two():
+    assert get_nth_fibonacci(2) == 1
+
+def test_get_nth_fibonacci_three():
+    assert get_nth_fibonacci(3) == 2
+
 
 def test_get_nth_fibonacci_ten():
     """Test with n=10."""
